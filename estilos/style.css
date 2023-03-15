@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor_roxa: color: #844c84;
+    --cor_roxa_claro: color: #db91d8;
+    --cor_verde_claro: color: #a1c48d;
+    --cor_verde: color: #29544c;
+    --cor_branco: color: #f4f9f4;
+
+
+}
+:root {
+    --fonte-padrao: Sriracha, cursive;
+}
+
+body {
+    background-color: white;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #844c84;
+    height: 250px;
+    width: 100vw;
+    padding-bottom: 30px;
+    position: relative;
+}
+#cabecalho-img {
+    position: absolute;
+    left: -38px;
+    top: 79px;
+    background-image: url(../imagens/flor-transparente200.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100px;
+    
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+#cabecalho-img2 {
+    position: absolute;
+    right: -9px;
+    top: 79px;
+    background-image: url(../imagens/flor-transparente200.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100px;
+}
+
+#titulo-header {
+    position: absolute;
+    bottom: 49px;
+    font-size: 3.1em;
+    color: #f4f9f4;
+}
+header > p {
+    font-size: 1.0em;
+    color: #a1c48d;
+}
+
+#conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+#titulo-conteudo {
+    color: #844c84;
+    padding-top: 12px;
+}
