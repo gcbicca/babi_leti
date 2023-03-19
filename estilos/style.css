@@ -3,8 +3,15 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
 
+@font-face {
+    font-family: 'Homerun Demo';
+    src: url(../fontes/Homerun\ Demo.otf) format('opentype');
+    font-weight:  300;
+    font-size: small;
+}
 :root {
     --cor_roxa: color: #844c84;
     --cor_roxa_claro: color: #db91d8;
@@ -33,16 +40,22 @@ body {
     padding-bottom: 30px;
     position: relative;
 }
+#cabecalho-logo {
+    height: 170px;
+    margin-bottom: 20px;
+    
+}
 #cabecalho-img {
     position: absolute;
-    left: -38px;
-    top: 79px;
+    left: -10px;
+    top: 50px;
     background-image: url(../imagens/flor-transparente200.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
     width: 100px;
+    transform: scaleX(-1);
     
     /* flex-direction: row;
     justify-content: center;
@@ -55,20 +68,32 @@ body {
 #cabecalho-img2 {
     position: absolute;
     right: -9px;
-    top: 79px;
+    top: 50px;
     background-image: url(../imagens/flor-transparente200.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
     width: 100px;
+    
 }
 
 #titulo-header {
+    font-family: Homerun Demo;
     position: absolute;
-    bottom: 49px;
-    font-size: 3.1em;
+    bottom: 28px;
+    font-size: 4em;
     color: #f4f9f4;
+    font-weight: 300;
+}
+#sub-header {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.7em;
+    margin-left: 55px;
+    bottom: 8px;
 }
 header > p {
     font-size: 1.0em;
@@ -81,9 +106,73 @@ header > p {
     justify-content: center;
     align-items: center;
     row-gap: 10px;
+
 }
 
 #titulo-conteudo {
+    display: block;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
     color: #844c84;
     padding-top: 12px;
+    margin-bottom: 10px;
 }
+
+.caixa-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.525);
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 70%;
+    height: 32px;    
+    text-align: center;
+    
+
+}
+.texto-link {
+    display: block;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+#simbol{
+    display: block;
+    color: #a1c48d;
+    background-color: #844c84 ;
+    border-radius: 50%;
+    padding: 5px; 
+    
+}
+#simbol2{
+    display: block;
+    color: #a1c48d;
+    background-color: #844c84 ;
+    border-radius: 50%;
+    padding: 5px; 
+    
+}
+#simbol3{
+    display: block;
+    color: #a1c48d;
+    background-color: #844c84 ;
+    border-radius: 50%;
+    padding: 5px; 
+    
+}
+
+#titulo-section {
+    color: #844c84;
+    padding-top: 20px;
+    padding-left: 65px;
+}
+
+#titulo-section > u {
+    text-decoration-color: #a1c48dc9;
+}
+
