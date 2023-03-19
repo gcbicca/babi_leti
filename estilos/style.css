@@ -111,7 +111,7 @@ header > p {
 
 #titulo-conteudo {
     display: block;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.664);
     padding-bottom: 10px;
     color: #844c84;
     padding-top: 12px;
