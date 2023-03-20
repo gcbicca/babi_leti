@@ -71,6 +71,7 @@ body, html {
 #cabecalho-titulo {
     position: relative;
     margin-bottom: 23;
+    margin-top: -15px;
 }
 #cabecalho-img2 {
     position: absolute;
