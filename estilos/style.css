@@ -142,11 +142,10 @@ header > p {
 
 }
 .texto-link {
-    
     width: 100%;
     text-align: center;
     display: block;
-    padding-right: 50px;
+    padding-right: 0px;
     text-decoration: none;
     color: #29544c;
     
