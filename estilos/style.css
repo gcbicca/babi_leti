@@ -44,7 +44,7 @@ body, html {
 }
 #cabecalho-logo {
     height: 120px;
-    margin-bottom: 60px;
+    margin-right: 20px;
     
 }
 #cabecalho-img {
@@ -131,7 +131,7 @@ header > p {
     background-color: rgba(211, 211, 211, 0.525);
     border-radius: 15px;
     box-sizing: border-box;
-    width: 75%;
+    width: 80%;
     height: 32px;    
     
 
@@ -213,7 +213,7 @@ footer {
 }
 
 #caixa-redes {
-    width: 35%;
+    width: 50%;
     height: 60px;
     margin-top: 10px;
     border-right: 1.5px solid #a1c48d;
@@ -233,7 +233,7 @@ footer {
 }
 #caixa-loc {
     display: flex;
-    width: 40%;
+    width: 50%;
     height: 60px;
     margin-top: 10px;
     border-right: 1.5px solid #a1c48d;
