@@ -1,0 +1,15 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    position: relative;
+}
+
+.separator {
+    position: absolute;
+    top: 6px;
+    width: 209px;
+    height: 109px;
+}

@@ -1,0 +1,18 @@
+.main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.525);
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 32px;    
+    transition: 100ms;
+}
+
+
+.main-box:hover {
+    background-color: rgba(130, 124, 124, 0.525);
+    transform: scale(1.02);
+}

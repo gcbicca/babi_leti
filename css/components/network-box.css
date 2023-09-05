@@ -1,0 +1,17 @@
+.network-box {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-right: 1.5px solid #a1c48d;
+    margin-left: 10px;
+}
+
+.network-box .whats_box {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.network-box .insta_box {
+    display: flex;
+    align-items: center;
+}

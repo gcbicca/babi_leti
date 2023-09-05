@@ -1,0 +1,17 @@
+.main-msg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-msg .underline {
+    text-decoration-color: #a1c48dc9;
+}
+
+.flawer {
+    height: 256px;
+}
+
+
+.main {
+    border-bottom: 1.5px solid #a1c48d;
+}

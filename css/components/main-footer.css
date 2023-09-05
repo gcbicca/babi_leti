@@ -1,0 +1,14 @@
+.main-footer {
+    display: flex;
+}
+
+.bx {
+    color: #a1c48d;
+}
+
+.location_box {
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+    padding-left: 5px;
+}
